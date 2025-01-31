@@ -12,14 +12,14 @@ body{
 
 
   
-.vastri{
+/* .vastri{
     color: aliceblue;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     font-size: 70px;
     text-shadow: 4px 4px 5px #1a1919;
 
-}
+} */
 .logoimg{
     width: 100%;
     height: auto;
@@ -39,23 +39,23 @@ h1{
     
 
 }
-.navbar {
-    
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    word-spacing: 10px;
-    }
-.navbar:hover{
+h2 {
     color: #ffffff;
-
+    text-shadow: 3px 3px   #1a1919;
+    font-size: 40px;;
+    font-family: "times new roman", Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    
 }
-a {
+.navbar {
     color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    word-spacing: 10px;
+    font-size: 20px;
+    padding: 5px;
+    
 }
-a:hover {
+.navbar:hover {
     color: orange;
 }
 video {
@@ -66,4 +66,9 @@ iframe {
 }
 .vfx {
     align-items: center;
+}
+.portrait {
+max-width: 40%;
+display: flex;
+margin: auto;
 }
