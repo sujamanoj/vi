@@ -1,0 +1,69 @@
+
+body{
+    background-image: url(assets/image/BACKGROUNDVI.jpg); 
+    height: 100vh;
+    background-color: #adbcb8;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    margin: 0;
+    padding: 0;
+   }
+
+
+  
+.vastri{
+    color: aliceblue;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-shadow: 4px 4px 5px #1a1919;
+
+}
+.logoimg{
+    width: 100%;
+    height: auto;
+    
+}
+
+h1{
+    max-width: 100%;
+    height: auto;
+
+    color: #ffffff;
+    text-shadow: 5px 5px   #1a1919;
+    font-size: 80px;;
+    font-family: "times new roman", Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    
+
+}
+.navbar {
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    word-spacing: 10px;
+    }
+.navbar:hover{
+    color: #ffffff;
+
+}
+a {
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    word-spacing: 10px;
+}
+a:hover {
+    color: orange;
+}
+video {
+    max-width: 100%;
+}
+iframe {
+    max-width: 100%;
+}
+.vfx {
+    align-items: center;
+}
