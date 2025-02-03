@@ -9,7 +9,9 @@ body{
     margin: 0;
     padding: 0;
    }
-
+p {
+    margin: 20px;
+}
 
   
 /* .vastri{
@@ -136,4 +138,10 @@ footer h4 {
 }
 .contactform label {
     color: #ffffff;
+}
+
+.team h4 {
+    text-align: center;
+    color: #353737;
+    font-size: 25px;
 }
