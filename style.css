@@ -88,3 +88,52 @@ margin: auto;
     display: block;
     margin: auto;
 }
+
+footer a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin: 20px 20px 20px 20px;
+    display: block;
+    text-align: center;
+}
+footer div p{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer h4 {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.contactform {
+    padding: 20px;
+    width: 500px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:white ;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+
+
+}
+.contactform h3 {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 10px;
+}
+.contactform input {
+    border: 1px solid  #ffffff;
+    display: block;
+    padding: 10px 10px;
+    font-size: 10px;
+    color: gray;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contactform label {
+    color: #ffffff;
+}
