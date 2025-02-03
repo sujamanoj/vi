@@ -36,6 +36,7 @@ h1{
     font-family: "times new roman", Helvetica, sans-serif;
     font-style: italic;
     text-align: center;
+    margin: 0;
     
 
 }
@@ -52,8 +53,8 @@ h2 {
     color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    padding: 5px;
-    
+    margin: 0 20px;  
+    font-weight: lighter;  
 }
 .navbar:hover {
     color: orange;
@@ -63,12 +64,27 @@ video {
 }
 iframe {
     max-width: 100%;
+    display: flex;
+    margin: auto;
 }
 .vfx {
-    align-items: center;
-}
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    }
+
 .portrait {
 max-width: 40%;
-display: flex;
+display: block;
 margin: auto;
+}
+.graphics {
+    width:100%;
+    display: block;
+    margin: auto;
+}
+.soundt {
+    max-width: 60%;
+    display: block;
+    margin: auto;
 }
