@@ -1,4 +1,6 @@
-
+nav, header, footer {
+    display: block;
+}
 body{
     background-image: url(assets/image/BACKGROUNDVI.jpg); 
     height: 100vh;
@@ -9,19 +11,20 @@ body{
     margin: 0;
     padding: 0;
    }
+   nav {
+    width: 100%;
+    margin: 0;
+    }
+    nav ul{
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+  
 p {
     margin: 20px;
 }
 
-  
-/* .vastri{
-    color: aliceblue;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
-    text-shadow: 4px 4px 5px #1a1919;
-
-} */
 .logoimg{
     width: 100%;
     height: auto;
@@ -51,14 +54,22 @@ h2 {
     text-align: center;
     
 }
-.navbar {
+nav.navbar li {
+    list-style: none;
+    float: left;
+}
+nav.navbar li a{
     color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin: 0 20px;  
-    font-weight: lighter;  
+    min-height: 20px;  
+   text-decoration: none;
+   text-align:center ;
+   padding: 5px;
+   text-transform: uppercase;
+
 }
-.navbar:hover {
+nav.navbar li a:hover {
+    background-color: #e8eded;
     color: orange;
 }
 video {
