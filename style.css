@@ -23,6 +23,7 @@ body{
   
 p {
     margin: 20px;
+    color: #ffffff;
 }
 
 .logoimg{
@@ -158,6 +159,6 @@ footer h4 {
 
 .team h4 {
     text-align: center;
-    color: #353737;
+    color: #f0f8f8;
     font-size: 25px;
 }
