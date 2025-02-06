@@ -62,10 +62,11 @@ nav.navbar li {
 nav.navbar li a{
     color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
-    min-height: 20px;  
+    min-height: 40px;  
+    font-size: 30px;
    text-decoration: none;
    text-align:center ;
-   padding: 15px;
+   padding: 20px;
    text-transform: uppercase;
 
 }
