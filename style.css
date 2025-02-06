@@ -2,9 +2,9 @@ nav, header, footer {
     display: block;
 }
 body{
-    background-image: url(assets/image/BACKGROUNDVI.jpg); 
-    height: 100vh;
-    background-color: #adbcb8;
+    background-image: url(assets/image/sky3.png); 
+    height: 200vh;
+    background-color: #57329d;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -64,7 +64,7 @@ nav.navbar li a{
     min-height: 20px;  
    text-decoration: none;
    text-align:center ;
-   padding: 5px;
+   padding: 15px;
    text-transform: uppercase;
 
 }
@@ -72,6 +72,16 @@ nav.navbar li a:hover {
     background-color: #e8eded;
     color: orange;
 }
+nav.navbar li.dropdown {
+   display: none; 
+}
+@media screen and ( max-width:1480px) {
+nav.navbar li :not(:nth-child(1)){
+    display: none;
+}
+}
+    
+
 video {
     max-width: 100%;
 }
@@ -80,11 +90,6 @@ iframe {
     display: flex;
     margin: auto;
 }
-.vfx {
-    max-width: 60%;
-    display: block;
-    margin: auto;
-    }
 
 .portrait {
 max-width: 40%;
