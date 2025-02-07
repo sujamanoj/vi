@@ -2,9 +2,9 @@ nav, header, footer {
     display: block;
 }
 body{
-    background-image: url(assets/image/sky3.png); 
+    background-image: url(assets/image/background7.png); 
     height: 200vh;
-    background-color: #57329d;
+    background-color: #080808;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -58,12 +58,13 @@ h2 {
 nav.navbar li {
     list-style: none;
     float: left;
+    min-height: 40px;  
+    font-size: 30px;
 }
 nav.navbar li a{
     color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
-    min-height: 40px;  
-    font-size: 30px;
+   
    text-decoration: none;
    text-align:center ;
    padding: 20px;
@@ -162,4 +163,11 @@ footer h4 {
     text-align: center;
     color: #f0f8f8;
     font-size: 25px;
+}
+.color-c{
+    color: #104bd5;
+    font-weight: bolder;
+    font-size: 30px;
+    display: block;
+    background-color: #080808;
 }
